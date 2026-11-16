@@ -274,7 +274,10 @@ a.page__taxonomy-item:hover {
 .page__footer-follow ul li,
 .page__footer-follow ul li a,
 .page__footer-copyright,
-.page__footer-copyright a { color: #888 !important; }
+.page__footer-copyright a { color: #2b2f33 !important; }
+/* Link del footer scuri e leggibili (fondo chiaro): anche visitati e link nel testo custom */
+.page__footer a, .page__footer a:visited, .page__footer-custom, .page__footer-custom a { color: #1f2428 !important; text-decoration: underline; }
+.page__footer a:hover, .page__footer-custom a:hover { color: #0e7490 !important; }
 .page__footer-follow ul li a:hover,
 .page__footer-copyright a:hover { color: var(--t-nav-text, #111) !important; text-decoration: none !important; }
 
